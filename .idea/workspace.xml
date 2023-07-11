@@ -154,13 +154,13 @@
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.1588785" />
       <window_info anchor="bottom" id="TODO" order="10" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.31234628" side_tool="true" visible="true" weight="0.32938388" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6876537" weight="0.32938388" />
       <window_info anchor="bottom" id="Version Control" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Python Console" order="0" weight="0.32940018" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.6876537" weight="0.32938388" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.6901131" weight="0.24528302" />
       <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="7" sideWeight="0.6901131" weight="0.24528302" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
