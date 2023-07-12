@@ -347,17 +347,18 @@ class CsvSource(object):
     def dataframe(self):
         if self.valid:
             _dataframe = pd.read_csv(self.file_path,
-                            usecols=self.columns,
-                            memory_map=True,
-                            converters={
-                                sourceLatCol: dm2dd,
-                                sourceLonCol: dm2dd,
-                            },
-                            parse_dates={
-                                datetimeCol: [sourceDateCol, sourceTimeCol]
-                            },
-                            keep_date_col=True
-                        )
+                                     usecols=self.columns,
+                                     low_memory=False,
+                                     memory_map=True,
+                                     converters={
+                                         sourceLatCol: dm2dd,
+                                         sourceLonCol: dm2dd,
+                                     },
+                                     parse_dates={
+                                         datetimeCol: [sourceDateCol, sourceTimeCol]
+                                     },
+                                     keep_date_col=True
+                                     )
             return _dataframe
         else:
             return None
